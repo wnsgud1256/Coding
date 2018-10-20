@@ -7,17 +7,12 @@ package ove;
 //그 기능을 쓴다는 것이다. 이게 오버라이딩이다.
 //부모의 리턴 데이터 타입과 자식의 리턴 데이터 타입이같아야함. 그리고 메소드의 이름도 같아야하고
 //메소드 매개변수의 숫자와 데이터 타입 그리고 순서가 같아야 한다.
-public class overriding {
-	int a =1; 
-	int b =2;
 
-	public void sum( ) {
-		System.out.println("a+b는"+ (a + b));
-	}
-	
-	
-	
-	public static void main(String[] args) {
-		
+
+
+
+public class overriding {				//클래스 생성
+	public void Ex1 () {				//메소드 생성
+		System.out.println("instagram");
 	}
 }
