@@ -2,6 +2,7 @@ package variableEx;
 
 public class Demo5 {
 
+	// this는 객체 자신을 참조하는 기능이다.
 	static double PI = 3.14;
 	int left, right;		//매개변수 left ,right 선언.
 	
